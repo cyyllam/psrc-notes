@@ -1,0 +1,23 @@
+---
+title: "Household Travel Survey Notes"
+format: html
+editor: visual
+mainfont: Poppins
+fontsize: "10pt"
+---
+
+## Survey Weights
+
+There is a hierarchy for weights. When cross tabulating variables only one weight is used. Weights from the Trip table will trump all others.
+
+1.  Trip
+2.  Person
+3.  Household
+
+## Geographies
+
+When generating data for dashboards, process for the three geographies below. Seattle and Bellevue are two of the top finacial contributors to the HTS.
+
+1.  Region
+2.  Seattle
+3.  Bellevue
